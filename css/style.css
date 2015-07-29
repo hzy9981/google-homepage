@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* end reset */
+
+
+
+
+
+body {
+	font-family: arial, sans-serif;
+}
+
+div#form_holder {
+	width:600px;
+	position: relative;
+	margin: 12.2% auto 0 auto ;
+}
+
+
+img.centered {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type="text"] {
+	width: 539px;
+	height: 25px;
+	display: block;
+	margin: 1% auto 0 auto;
+	border: #AAA 1px solid;
+}
+
+input[type="submit"] {
+	height: 29px;
+	line-height: 27px;
+	font-size: 13px;
+}
+
+input#button_search {
+	margin: 0 0 0 30%;
+}
+
+input#button_lucky {
+	margin: 0 0 0 3%;
+}
+
+input#button_signin {
+	background: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #fff;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	top: 10px;
+	height: 35px;
+	font-size: small;
+}
+
+header a {
+	color: #666;
+}
+
+div#header_right {
+	float:right;
+	height: 35px;
+}
+
+div#header_right a {
+	margin-right: 20px;
+}
+
+
+ul.nav {
+	float:right;
+	margin: 10px 15px 0px 0px;
+}
+
+ul.nav li {
+	display:inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+ul.nav li:nth-child(3) {
+	min-height: 25px;
+	min-width:  25px;
+}
+
+a#app_button {
+	background-image: url("../img/apps.png");
+	position: absolute;
+	width: 25px;
+	height:22px;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	font-size: small;
+}
+
+div#footer_left {
+	float: left;
+}
+
+div#footer_left a {
+	margin-left: 27px;
+}
+
+
+footer a {
+	color: #666;
+	display: inline-block;
+	margin-top: 14px;
+}
+
+div#footer_right {
+	float: right;
+}
+
+div#footer_right a {
+	margin-right: 27px;
+}
+
+
+
+
+
+
+
+
+
+
