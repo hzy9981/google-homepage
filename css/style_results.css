@@ -1,0 +1,327 @@
+/*  stylesheet for google search results
+    normally this would be integrated with the main style.css
+    we're seperating them for clarity/learning purposes */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* end reset */
+
+body {
+  font-family: arial, sans-serif;
+}
+
+header {
+  height: 58px;
+  background: #f1f1f1;
+  border: 1px solid #d9d9d9;
+  border-top-color: #c0c0c0;
+}
+
+header div#header_left {
+  float: left;
+  margin: 10px 0px 0px 14px;
+}
+
+header div#header_right {
+  float:right;
+  margin: 10px 40px 0 0;
+
+}
+
+header img#header_logo {
+  vertical-align: middle;
+  margin: 0 14px 0 0;
+}
+
+header input[type="text"] {
+  width: 575px;
+  height: 28px;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  padding: 0 0 0 7px;
+  border: 1px solid #AAA;
+}
+
+
+header img#header_glass {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 0px 0px -5px;
+}
+
+
+header div#header_right img#apps_results {
+  vertical-align: middle;
+  float: left;
+  margin: 10px 20px 0 0;
+}
+
+
+div#button_signin {
+  border: 1px solid #4285f4;
+  background: #4285f4;
+  border-radius: 3px;
+  width: 63px;
+  height: 29px;
+  float:left;
+  margin-top: 4px;
+}
+
+a#button_signin {
+  display:inline-block;
+  margin: 8px 0 0 9px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+}
+
+
+div#search_refine {
+  height: 58px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+
+ul#search_nav {
+  float:left;
+  margin-left: 125px;
+}
+
+ul#search_nav li {
+  display:inline-block;
+  height: 55px;
+  margin-right: 20px;
+  font-size: small;
+}
+
+ul#search_nav li:first-child {
+  border-bottom: 3px solid #dd4b39;
+}
+
+
+ul#search_nav li a {
+  display:inline-block;
+  margin-top: 22px;
+  padding: 0 5px 0 5px;
+  color: #AAA;
+}
+
+ul#search_nav li:first-child a{
+  color: #dd4b39;
+  font-weight: bold;
+}
+
+div#search_refine img#button_settings {
+  float:right;
+  margin: 12px 38px 0 0;
+}
+
+div#search_results {
+  margin-left: 128px;
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+
+div#search_results div#search_timer {
+  font-size: small;
+  margin-top: 17px;
+  color: #808080;
+}
+
+div.search_results_hit {
+  width: 519px;
+  height: 74px;
+  margin-top: 20px
+}
+
+div.search_results_hit div {
+  margin-bottom:2px;
+}
+
+div.search_results_hit div.search_results_hit_title {
+  font-size:18px;
+  line-height: 1.2;
+  color: #1a0dab;
+}
+
+div.search_results_hit div.search_results_hit_url cite{
+  color: #006621;
+  font-size: 14px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+
+div.search_results_hit div.search_results_hit_url p{
+  font-size: 14px;
+  color: #545454;
+  float: right;
+  
+}
+
+
+
+div.search_results_hit div.search_results_hit_desc {
+  clear: both;
+  font-size: small;
+  line-height: 1.4;
+  word-wrap: break-word;
+  color: #545454;
+}
+
+
+
+div#search_related {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  width: 519px;
+}
+
+div#search_related h3{
+  font-size: 18px;
+  color: #AAA;
+  margin-top: 15px;
+}
+
+div#search_related table {
+  font-size: small;
+  color: #1a0dab;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+div#search_related table td{
+  padding: 5px 10px 5px 0px;
+}
+
+div#results_page {
+  width: 519px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+div#results_page img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+div#results_page ul.nav_page {
+  width: 260px;
+  margin: 10px 0 20px 145px;
+}
+
+div#results_page ul.nav_page li{
+  float: left;
+}
+
+div#results_page ul.nav_page li a {
+  display:block;
+  width: 20px;
+  font-size: small;
+}
+
+div#results_page ul.nav_page li:first-child {
+  font-weight: bold;
+}
+
+div#results_page ul.nav_page li:last-child {
+  float:right;
+  font-weight: bold;
+}
+
+footer {
+  height: 80px;
+  position: relative;
+  background: #f1f1f1;
+  border-top: 1px solid #c0c0c0;
+}
+
+footer p {
+  font-size: small;
+  margin: 20px 0px 10px 128px;
+  color: #AAA;
+}
+
+footer ul#footer_nav {
+  margin-left: 128px;
+}
+
+
+footer ul#footer_nav li{
+  float: left;
+}
+
+footer ul#footer_nav li a {
+  display:block;
+  padding-right:27px;
+  margin-top: 10px;
+  font-size: small;
+  color: #777;
+}
+
+.clearfooter {
+  height: 80px;
+  clear:both;
+}

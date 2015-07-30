@@ -3,46 +3,223 @@
 <head>
 	<meta charset="UTF-8">
 	<title>build this webpage- Google Search</title>
+	<link rel="stylesheet" href="css/style_results.css">
 </head>
 <body>
 	<header>
 	<!-- 633535 -->
-	<img src="img/logo_sm.png" width="92" height="40" alt="Google">
-	<input type="text" name="search_box" value="build this webpage">
-	<img src="img/button_glass.png" width="60" height="30" alt="Search">
-	<a href="#" id="app_button"></a>
-	<input type="submit" value="Sign In" id="button_signin">
+		<div id="header_left">
+		<img src="img/logo_sm.png" width="92" height="40" alt="Google" id="header_logo">
+		<input type="text" name="search_box" value="build this webpage">
+		<img src="img/button_glass.png" width="60" height="30" alt="Search" id="header_glass">
+		
+		</div>
+
+		<div id="header_right">
+		<img src="img/apps_results.png" alt="Apps" height="19" width="20" id="apps_results">
+			<div id="button_signin">
+			<a href="#" id="button_signin">Sign in</a>
+			</div>
+		</div>
 	</header>
 
 	<div id="search_refine">
-	<ul id="search_nav">
-		<li><a href="#">Web</a></li>
-		<li><a href="#">Videos</a></li>
-		<li><a href="#">Shopping</a></li>
-		<li><a href="#">News</a></li>
-		<li><a href="#">Images</a></li>
-		<li><a href="#">More</a></li>
-		<li><a href="#">Search Tools</a></li>
-	</ul>
+		<ul id="search_nav">
+			<li><a href="#">Web</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Shopping</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#">More</a></li>
+			<li><a href="#">Search Tools</a></li>
+		</ul>
+
+		<img src="img/button_gear.png" width="74" height="31" alt="Settings" 
+		id="button_settings">
 	</div>
 
-	<div id="search results">
-	<p>About 7,580,000 results (0.28 seconds)</p>
-
-		<div class="search_result_hit">
-			<h1><a href="#">With zero coding experience, artist building 180 
-			webpages ...</a></h1>
-			<h2>arstechnica.com/.../with-zero-coding-experience-artist-build...
-			 Ars Technica</h2>
-			 <p>Jul 26, 2013- One of Jennifer Dewalt's creations, this webpage 
-			 lets visitors create paintings in ... Build a different website 
-			 every day for 180 consecutive days.</p>
+	<div id="search_results">
+		
+		<div id="search_timer">
+		<p>About 7,580,000 results (0.28 seconds)</p>
 		</div>
-	
-	</div>
 
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">With zero coding experience, artist building 180 
+				webpages ...</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				arstechnica.com/.../with-zero-coding-experience-artist-build...
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Ars Technica &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Jul 26, 2013- One of Jennifer Dewalt's creations, this webpage 
+			lets visitors create paintings in ... Build a different website 
+			every day for 180 consecutive days.</p>
+			</div>
+		</div>
+		
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">How Do We Know They Need This Webpage? | Inc.com</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				www.inc.com/...build.../how-do-we-know-they-need-this-webpage.h...
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Inc. &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Aug 2, 2013 - During a recent visit to HubSpot's headquarters, members of the Build team got to see the remnants of one of the inbound marketing firm's ...</p>
+			</div>
+		</div>
+
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">Build Your Own Webpage | Codecademy</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				https://www.codecademy.com/.../web-beginner-en-LceTK
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Codeacademy &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Build Your Own Webpage. What you'll be making. Before we ask you to write a bunch of code, we think it's helpful for you to see exactly what you'll be making in ...</p>
+			</div>
+		</div>
+
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">With zero coding experience, artist building 180 
+				webpages ...</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				arstechnica.com/.../with-zero-coding-experience-artist-build...
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Ars Technica &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Jul 26, 2013- One of Jennifer Dewalt's creations, this webpage 
+			lets visitors create paintings in ... Build a different website 
+			every day for 180 consecutive days.</p>
+			</div>
+		</div>
+		
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">How Do We Know They Need This Webpage? | Inc.com</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				www.inc.com/...build.../how-do-we-know-they-need-this-webpage.h...
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Inc. &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Aug 2, 2013 - During a recent visit to HubSpot's headquarters, members of the Build team got to see the remnants of one of the inbound marketing firm's ...</p>
+			</div>
+		</div>
+
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">Build Your Own Webpage | Codecademy</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				https://www.codecademy.com/.../web-beginner-en-LceTK
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Codeacademy &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Build Your Own Webpage. What you'll be making. Before we ask you to write a bunch of code, we think it's helpful for you to see exactly what you'll be making in ...</p>
+			</div>
+		</div>
+
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">With zero coding experience, artist building 180 
+				webpages ...</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				arstechnica.com/.../with-zero-coding-experience-artist-build...
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Ars Technica &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Jul 26, 2013- One of Jennifer Dewalt's creations, this webpage 
+			lets visitors create paintings in ... Build a different website 
+			every day for 180 consecutive days.</p>
+			</div>
+		</div>
+		
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">How Do We Know They Need This Webpage? | Inc.com</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				www.inc.com/...build.../how-do-we-know-they-need-this-webpage.h...
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Inc. &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Aug 2, 2013 - During a recent visit to HubSpot's headquarters, members of the Build team got to see the remnants of one of the inbound marketing firm's ...</p>
+			</div>
+		</div>
+
+		<div class="search_results_hit">
+			<div class="search_results_hit_title">
+				<h3><a href="#">Build Your Own Webpage | Codecademy</a></h3>
+			</div>
+			<div class="search_results_hit_url">
+				<cite>
+				https://www.codecademy.com/.../web-beginner-en-LceTK
+				&#9660;
+				</cite>
+				<p class="search_results_hits_url_sitename">
+				Codeacademy &#9660;
+				</p>
+			</div>
+			<div class="search_results_hit_desc">
+			<p>Build Your Own Webpage. What you'll be making. Before we ask you to write a bunch of code, we think it's helpful for you to see exactly what you'll be making in ...</p>
+			</div>
+		</div>
+
+		
+	
+	<br><br>
 	<div id="search_related">
-		<h1>Searches related to build this webpage</h1>
+		<h3>Searches related to build this webpage</h3>
 		<table>
 			<tr>
 				<td><a href="#">how to build a website</a></td>
@@ -62,6 +239,37 @@
 			</tr>
 		</table>
 	</div>
+
+	<div id="results_page">
+		<img src="img/results_page.png" alt="More Results" width="302" height="47">
+		
+		<ul class="nav_page">
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+			<li><a href="#">7</a></li>
+			<li><a href="#">8</a></li>
+			<li><a href="#">9</a></li>
+			<li><a href="#">10</a></li>
+			<li><a href="#">Next</a></li>
+		</ul>
+	</div>
+
+	<div class="clearfooter"></div>
+</div>
+
+	<footer>
+	<p>&#9679; Randomtown, QZ - From your Internet address - Use precise location - Learn more</p>
+	<ul id="footer_nav">
+		<li><a href="#">Help</a></li>
+		<li><a href="#">Send Feedback</a></li>
+		<li><a href="#">Privacy</a></li>
+		<li><a href="#">Terms</a></li>
+	</ul>
+	</footer>
 
 
 </body>
