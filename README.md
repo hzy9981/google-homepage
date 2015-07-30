@@ -12,4 +12,8 @@ Just some enhancements for personal taste.
 
 All images, etc are owned by Google. This is just for educational/practice purposes.
 
+Previews:
 
+[Homepage](http://htmlpreview.github.io/?https://github.com/openmindset/google-homepage/blob/master/homepage.html)
+
+[Search Results](http://htmlpreview.github.io/?https://github.com/openmindset/google-homepage/blob/master/search_results.html)
